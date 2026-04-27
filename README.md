@@ -8,7 +8,7 @@ Organize seus livros por status, acompanhe leituras e mantenha tudo salvo no nav
 
 ## 📸 Preview
 
-![Preview do projeto](./img/MyLibrary.png.png)
+![Preview do projeto](../img/MyLibrary.png.png)
 
 ---
 
