@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Biblioteca</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- TOPO -->
+  <header class="header">
+    <div class="logo">
+       <span> 📚 Minha Biblioteca</span>
+    </div>
+
+    <button class="btn-add" id="btnNovoLivro">
+      + Adicionar livro
+    </button>
+  </header>
+
+  <!-- ESTATÍSTICAS -->
+  <section class="stats">
+
+    <div class="stat-card">
+      <h2 id="totalLivros">0</h2>
+      <p>Total</p>
+    </div>
+
+    <div class="stat-card">
+      <h2 id="queroLer">0</h2>
+      <p>Quero ler</p>
+    </div>
+
+    <div class="stat-card">
+      <h2 id="lendo">0</h2>
+      <p>Lendo</p>
+    </div>
+
+    <div class="stat-card">
+      <h2 id="lidos">0</h2>
+      <p>Lidos</p>
+    </div>
+
+  </section>
+
+  <!-- FILTROS -->
+  <section class="filters">
+
+    <input 
+      type="text" 
+      placeholder="Buscar por título ou autor..."
+      id="pesquisa"
+    >
+
+    <select id="filtroStatus">
+      <option value="">Todos os status</option>
+      <option value="Quero ler">Quero ler</option>
+      <option value="Lendo">Lendo</option>
+      <option value="Lido">Lido</option>
+    </select>
+
+  </section>
+
+  <!-- LISTA -->
+  <section class="books-grid" id="listaLivros">
+
+    <p class="empty">
+      Nenhum livro adicionado ainda. Comece adicionando seu primeiro livro!
+    </p>
+
+  </section>
+
+</div>
+
+<div class="modal" id="modalLivro">
+
+  <div class="modal-box">
+
+    <h2 id="tituloModal">Adicionar Livro</h2>
+
+    <form id="formLivro">
+
+      <input type="text" id="tituloLivro" placeholder="Título" required>
+
+      <input type="text" id="autorLivro" placeholder="Autor" required>
+
+      <input type="url" id="imagemLivro" placeholder="URL da imagem">
+
+      <select id="statusLivro">
+        <option value="Quero ler">Quero ler</option>
+        <option value="Lendo">Lendo</option>
+        <option value="Lido">Lido</option>
+      </select>
+
+      <select id="notaLivro">
+        <option value="1">⭐ 1</option>
+        <option value="2">⭐ 2</option>
+        <option value="3">⭐ 3</option>
+        <option value="4">⭐ 4</option>
+        <option value="5">⭐ 5</option>
+      </select>
+
+      <textarea id="comentarioLivro" placeholder="Comentário"></textarea>
+
+      <div class="modal-actions">
+        <button type="button" id="fecharModal">Cancelar</button>
+        <button type="submit">Salvar</button>
+      </div>
+
+    </form>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
