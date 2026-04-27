@@ -34,7 +34,6 @@ Organize seus livros por status, acompanhe leituras e mantenha tudo salvo no nav
 * HTML5
 * CSS3
 * JavaScript
-* localStorage
 
 ---
 
