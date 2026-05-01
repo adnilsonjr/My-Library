@@ -1,14 +1,16 @@
 # 📚 Minha Biblioteca
 
+## 📸 Preview
+
+![Preview do projeto](./img/MyLibrary.png)
+
 Aplicação web para gerenciar leituras, desenvolvida com **HTML, CSS e JavaScript puro**.
 
 Organize seus livros por status, acompanhe leituras e mantenha tudo salvo no navegador com **localStorage**.
 
 ---
 
-## 📸 Preview
-
-![Preview do projeto](./img/MyLibrary.png.png)
+🔗 [Acesse o projeto publicado no GitHub Pages](https://adnilsonjr.github.io/My-Library/)
 
 ---
 
@@ -32,7 +34,6 @@ Organize seus livros por status, acompanhe leituras e mantenha tudo salvo no nav
 * HTML5
 * CSS3
 * JavaScript
-* localStorage
 
 ---
 
